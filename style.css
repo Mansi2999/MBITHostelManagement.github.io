@@ -1,0 +1,414 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+.carousel-inner img 
+{
+    width: 100%;
+    height: 90vh;
+}
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 0;
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 42px;
+}
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+#facilities
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/bg.jpeg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px
+	padding-bottom: 50px;
+}
+#facilities h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#facilities h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 190px;
+	margin: 10px auto 5px;
+}
+.facilities
+{
+	margin-top: 40px;
+}
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+#facilities p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+.facilities .col-md-4:hover
+{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+#fee
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 180px;
+	margin: 10px auto 5px;
+}
+#fee
+{
+	padding: 40px 0;
+	background-color: #efefef;
+}
+.single-price
+{
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.single-price:hover
+{
+	box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h2
+{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.price-head p
+{
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 20px;
+}
+#fee span
+{
+	font-size: 15px;
+}
+.price-content
+{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+.price-content ul li
+{
+	border-bottom: 1px solid #efefef;
+	padding: 15px 10px;
+	list-style: none;
+}
+ul li:last-child
+{
+	border: none;
+}
+.price-button
+{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+.enroll-btn
+{
+	background-color: #2196f3;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+}
+.enroll-btn:hover
+{
+	border-color: 1px solid #fff;
+	background-color: #3f51b5;
+}
+a
+{
+	text-decoration: none!important;
+	color: #fff!important;
+}
+#application
+{
+	background-image: url(image/app.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
+
+}
+#application h1
+{
+   text-align: center;
+	color: #000000 !important;
+	padding-bottom: 10px;
+}
+.shardahostel
+{
+   width: 800px;
+   background-color: rgb(0,0,0,0.6); 
+   margin: auto;
+   color: #FFFFFF;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+   border-radius: 15px 15px 0px 0px;
+}
+.appform
+{
+   background-color:rgb(0,0,0,0.5);
+   width: 800px;
+   margin: auto;
+}
+.form
+{
+	padding: 10px;
+}
+#name
+{
+	width: 100%;
+	height: 100px;
+}
+.name
+{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px
+	font-weight: 700;
+}
+.firstname
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+.lastname
+{
+	position: relative;
+	left: 417px;
+	top: -80px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.firstlabel
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -45px;
+}
+.lastlabel
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 493px;
+	top: -80px;
+}
+.email
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 50px;
+	font-size: 16px;
+	color: #555;
+}
+.number
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.address
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 80px;
+	border-radius: 6px;
+	padding: 0 90px;
+	font-size: 16px;
+	color: #555;
+}
+.college
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 80px;
+	font-size: 16px;
+	color: #555;
+}
+.field
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 60px;
+	font-size: 16px;
+	color: #555;
+}
+.option
+{
+	position: relative;
+	left: 200px;
+	top: -50px;
+	line-height: 60px;
+	border-radius: 6px;
+	padding: 0 60px;
+	font-size: 16px;
+	color: #555;
+}
+#application.btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
